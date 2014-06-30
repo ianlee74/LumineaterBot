@@ -1,4 +1,4 @@
-ldr_dia = 5.1;
+ldr_dia = 5.4;
 ldr_thickness = 2.8;
 wall_thickness = 1.5;
 tolerance = 0.1;
@@ -29,7 +29,7 @@ module eyelash()
 			for(x=[120:30:240])
 			{
 				rotate([0,0,x])
-					cube([1, 10, 1]);
+					cube([1, 12, 1]);
 			}
 		}
 
