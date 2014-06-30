@@ -1,5 +1,5 @@
 ldr_dia = 5.1;
-ldr_thickness = 2.5;
+ldr_thickness = 2.8;
 wall_thickness = 1.5;
 tolerance = 0.1;
 
@@ -10,8 +10,8 @@ module ldr()
 		// main body
 		cylinder(h=ldr_thickness, r=ldr_dia/2 + tolerance, $fn=50);
 		// wires
-		translate([1.9,0,0]) cylinder(h=5, r=0.5, $fn=20);
-		translate([-1.9,0,0]) cylinder(h=5, r=0.5, $fn=20);
+		translate([1.9,0,0]) cylinder(h=5, r=0.75, $fn=20);
+		translate([-1.9,0,0]) cylinder(h=5, r=0.75, $fn=20);
 	}
 }
 
