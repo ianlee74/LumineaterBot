@@ -10,7 +10,7 @@
  #include "WProgram.h"
 #endif
  
-#include "Adafruit_SoftServo.h"
+#include "SoftServo.h"
 
 Adafruit_SoftServo::Adafruit_SoftServo(void) {
   isAttached = false;
