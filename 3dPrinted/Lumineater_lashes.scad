@@ -1,3 +1,9 @@
+// Lumineater Bot Lashes
+//
+// Author: Ian Lee
+// GitHub Page:  http://ianlee74.github.io/LumineaterBot/
+
+
 ldr_dia = 5.4;
 ldr_thickness = 2.8;
 wall_thickness = 1.5;
